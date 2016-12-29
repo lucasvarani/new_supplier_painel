@@ -1,0 +1,63 @@
+@font-face{
+  font-family: "gotham";
+  src: url(fonts/GOTHAMRND-MEDIUM.OTF);
+}
+
+body{
+  font-family: "gotham" !important;
+}
+
+.center-block{
+	float: none;
+}
+
+/*------MENU------*/
+
+li a.nav-link,
+a.nav-link.mobileLogin{
+  padding: 30px 0px;
+  margin: 0px 10px;
+}
+
+li a.nav-link,
+a.nav-link.mobileLogin,
+li.nav-item {
+  color: #bcbec0;
+  font-weight: 600;
+  font-size: 12px !important;
+}
+
+div#includedContent {
+padding: 0px;
+background: #293847;
+}
+
+ul.av.nav-inline{
+	padding: 0px;
+}
+
+.rounded-circle{
+	margin-left: 6px;
+}
+
+.nav-link.dropdown-toggle{
+	width: 100%;
+}
+
+.dropdown-toggle::after {
+	float: right;
+	margin-top: -27px;	
+}
+
+.nav-tabs {
+	border: none !important; 
+}
+
+.nav-tabs .nav-link{
+	border: none !important;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-color: none !important;
+}
