@@ -1,3 +1,5 @@
+/*------BASE------*/
+
 @font-face{
   font-family: "gotham";
   src: url(fonts/GOTHAMRND-MEDIUM.OTF);
@@ -10,6 +12,8 @@ body{
 .center-block{
 	float: none;
 }
+
+/*------END BASE------*/
 
 /*------MENU------*/
 
@@ -29,11 +33,20 @@ li.nav-item {
 
 div#includedContent {
 padding: 0px;
-background: #293847;
+background: #1c2630;
 }
 
 ul.av.nav-inline{
 	padding: 0px;
+	margin-bottom: 0px;
+}
+
+nav.navbar.navbar-default{
+	padding: 0px;
+}
+
+.supplier-dropdown {
+  margin-top: 7px;
 }
 
 .rounded-circle{
@@ -44,11 +57,6 @@ ul.av.nav-inline{
 	width: 100%;
 }
 
-.dropdown-toggle::after {
-	float: right;
-	margin-top: -27px;	
-}
-
 .nav-tabs {
 	border: none !important; 
 }
@@ -57,7 +65,27 @@ ul.av.nav-inline{
 	border: none !important;
 }
 
+.nav-tabs .nav-item.open .nav-link,
+.nav-tabs .nav-item.open .nav-link:focus,
+.nav-tabs .nav-item.open .nav-link:hover {
+  color: inherit !important; 
+  background-color: #252f38 !important; 
+  border-color: transparent !important; 
+}
+
+.dropdown-toggle::after {
+	float: right;
+	margin-top: -27px;	
+}
+
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
   border-color: none !important;
 }
+
+.nav-sup:focus,
+.nav-sup:hover {
+	background: #252f38;
+}
+
+/*------END MENU------*/
